@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
 
         if (Input.GetKeyDown("up"))
         {
-
+            PushUp();
         }
     }
 
@@ -71,5 +71,11 @@ public class GameManager : MonoBehaviour
         selectedZombie.transform.localScale = defaultSize;
         selectedZombie = newZomeBie;
         newZomeBie.transform.localScale = selectedSize;
+    }
+
+    void PushUp()
+    {
+        Rigidbody rb = selectedZombie.GetComponent<Rigidbody>();
+        rb.AddForce(0, 0, 10, ForceMode.Impulse);
     }
 }
