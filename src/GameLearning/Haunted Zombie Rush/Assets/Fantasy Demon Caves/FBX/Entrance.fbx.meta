@@ -3,7 +3,12 @@ guid: 95968118caffa0a44aae707263dcbcf7
 ModelImporter:
   serializedVersion: 27
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fantasy_Demon _Caves
+    second: {fileID: 2100000, guid: 30700d8f41ae44c41a34961e0a97d408, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
