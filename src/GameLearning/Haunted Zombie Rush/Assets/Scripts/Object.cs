@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Object : MonoBehaviour
 {
+    [SerializeField] float objectSpeed = 1;
+
+    private float resetPosition = -21.56f;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -17,6 +20,12 @@ public class Object : MonoBehaviour
     /// </summary>
     void Update()
     {
-        transform.Translate(Vector3.left * (20 * Time.deltaTime));
+        transform.Translate(Vector3.left * (objectSpeed * Time.deltaTime));
+
+        if (transform.localPosition.x <= resetPosition)
+        {
+            Vector3 newPos = new Vector3(76f, transform.position.y, transform.position.z);
+            transform.position = newPos;
+        }
     }
 }
