@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rock : MonoBehaviour
+public class Rock : Object
 {
     [SerializeField] Vector3 topPosition;
     [SerializeField] Vector3 bottomPosition;
@@ -12,6 +12,11 @@ public class Rock : MonoBehaviour
     void Start()
     {
         StartCoroutine(Move(bottomPosition));
+    }
+
+    protected override void Update()
+    {
+        base.Update();
     }
 
     /// <summary>
