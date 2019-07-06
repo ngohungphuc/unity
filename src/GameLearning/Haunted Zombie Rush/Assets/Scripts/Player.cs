@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!GameManager.instance.GameOver)
+        if (!GameManager.instance.GameOver && GameManager.instance.GameStarted)
         {
             if (Input.GetMouseButtonDown(0))
             {
