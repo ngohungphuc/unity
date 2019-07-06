@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             animator.Play("Jump");
             audioSource.PlayOneShot(sfxJump);
@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(jump)
+        if (jump)
         {
             jump = false;
             rigidbody.velocity = new Vector2(0, 0);
@@ -52,9 +52,11 @@ public class Player : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "obstacle")
+        if (collision.gameObject.tag == "obstacle")
         {
-
+            rigidbody.AddForce(new Vector2(-50, 20), ForceMode.Impulse);
+            rigidbody.detectCollisions = false;
+            audioSource.PlayOneShot(sfxDeath);
         }
     }
 }
