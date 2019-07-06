@@ -1052,7 +1052,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 100
-  sfxJump: {fileID: 0}
+  sfxJump: {fileID: 8300000, guid: be9cb0e8d7e3edd45842e95c6ab79c36, type: 3}
+  sfxDeath: {fileID: 8300000, guid: 109941a93cf84c341be7e11b8824373c, type: 3}
 --- !u!95 &1531087301
 Animator:
   serializedVersion: 3
@@ -4093,6 +4094,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460676628689208883, guid: ace32b41dbec12a48a1f69f1b2e3052e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 8066992503924372512, guid: ace32b41dbec12a48a1f69f1b2e3052e,
         type: 3}

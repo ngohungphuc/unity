@@ -1,16 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] private float jumpForce = 100f;
     [SerializeField] private AudioClip sfxJump;
+    [SerializeField] private AudioClip sfxDeath;
 
     private Animator animator;
     private Rigidbody rigidbody;
     private bool jump = false;
     private AudioSource audioSource;
+
+    void Awake()
+    {
+        Assert.IsNotNull(sfxJump);
+        Assert.IsNotNull(sfxDeath);
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +47,14 @@ public class Player : MonoBehaviour
             jump = false;
             rigidbody.velocity = new Vector2(0, 0);
             rigidbody.AddForce(new Vector2(0, jumpForce), ForceMode.Impulse);
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "obstacle")
+        {
+
         }
     }
 }
