@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6708049269396790306}
   - component: {fileID: 6708049269396790305}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkpoint
   m_TagString: checkpoint
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
