@@ -49,9 +49,17 @@ public class GameManager : MonoBehaviour
                 {
                     GameObject newEnemy = Instantiate(enemies[0]) as GameObject;
                     newEnemy.transform.position = spawnPoint.transform.position;
-                    enemiesOnScreen++;
+                    enemiesOnScreen += 1;
                 }
             }
+        }
+    }
+
+    public void RemoveEnemyFromScreen()
+    {
+        if(enemiesOnScreen > 0)
+        {
+            enemiesOnScreen -= 1;
         }
     }
 }
