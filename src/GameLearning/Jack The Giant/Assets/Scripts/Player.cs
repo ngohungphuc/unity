@@ -41,6 +41,8 @@ public class Player : MonoBehaviour
             {
                 forceX = Speed;
             }
+
+            Anim.SetBool("Walk", true);
         }
         else if (h < 0)
         {
@@ -48,6 +50,12 @@ public class Player : MonoBehaviour
             {
                 forceX = -Speed;
             }
+
+            Anim.SetBool("Walk", true);
+        }
+        else
+        {
+            Anim.SetBool("Walk", false);
         }
 
         MyBody.AddForce(new Vector2(forceX, 0));
