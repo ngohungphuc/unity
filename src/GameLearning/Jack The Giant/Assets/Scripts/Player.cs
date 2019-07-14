@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
 
         float h = Input.GetAxisRaw("Horizontal");
 
+        //go left
         if (h > 0)
         {
             if (vel < MaxVelocity)
@@ -42,14 +43,23 @@ public class Player : MonoBehaviour
                 forceX = Speed;
             }
 
+            Vector3 temp = transform.localScale;
+            temp.x = 1.3f;
+            transform.localScale = temp;
+
             Anim.SetBool("Walk", true);
         }
+        //go right
         else if (h < 0)
         {
             if (vel < MaxVelocity)
             {
                 forceX = -Speed;
             }
+
+            Vector3 temp = transform.localScale;
+            temp.x = -1.3f;
+            transform.localScale = temp;
 
             Anim.SetBool("Walk", true);
         }
