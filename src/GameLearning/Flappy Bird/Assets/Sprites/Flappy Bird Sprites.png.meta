@@ -70,7 +70,7 @@ TextureImporter:
     second: Flappy Bird Sprites_28
   - first:
       213: -8436936780237523554
-    second: Flappy Bird Sprites_29
+    second: Ground
   - first:
       213: 7463879149399538272
     second: Flappy Bird Sprites_30
@@ -632,13 +632,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flappy Bird Sprites_29
+      name: Ground
       rect:
         serializedVersion: 2
-        x: 22
-        y: 213
-        width: 721
-        height: 240
+        x: 25
+        y: 218
+        width: 714
+        height: 228
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
