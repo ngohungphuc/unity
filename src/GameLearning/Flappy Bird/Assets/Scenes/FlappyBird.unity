@@ -238,7 +238,6 @@ GameObject:
   m_Component:
   - component: {fileID: 437197071}
   - component: {fileID: 437197070}
-  - component: {fileID: 437197069}
   m_Layer: 0
   m_Name: BG Day (1)
   m_TagString: Untagged
@@ -246,32 +245,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &437197069
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437197068}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.2, y: 12.8}
-    newSize: {x: 7.2, y: 12.8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.2, y: 12.8}
-  m_EdgeRadius: 0
 --- !u!212 &437197070
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -346,7 +319,6 @@ GameObject:
   m_Component:
   - component: {fileID: 468034168}
   - component: {fileID: 468034167}
-  - component: {fileID: 468034166}
   m_Layer: 0
   m_Name: Ground (1)
   m_TagString: Untagged
@@ -354,32 +326,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &468034166
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 468034165}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.142354, y: 2.28}
-    newSize: {x: 7.142354, y: 2.28}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.142354, y: 2.28}
-  m_EdgeRadius: 0
 --- !u!212 &468034167
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -551,7 +497,6 @@ GameObject:
   m_Component:
   - component: {fileID: 541578657}
   - component: {fileID: 541578656}
-  - component: {fileID: 541578655}
   m_Layer: 0
   m_Name: BG Day (7)
   m_TagString: Untagged
@@ -559,32 +504,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &541578655
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 541578654}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.2, y: 12.8}
-    newSize: {x: 7.2, y: 12.8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.2, y: 12.8}
-  m_EdgeRadius: 0
 --- !u!212 &541578656
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -659,7 +578,6 @@ GameObject:
   m_Component:
   - component: {fileID: 575166047}
   - component: {fileID: 575166046}
-  - component: {fileID: 575166045}
   m_Layer: 0
   m_Name: Ground (5)
   m_TagString: Untagged
@@ -667,32 +585,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &575166045
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 575166044}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.142354, y: 2.28}
-    newSize: {x: 7.142354, y: 2.28}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.142354, y: 2.28}
-  m_EdgeRadius: 0
 --- !u!212 &575166046
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -768,7 +660,6 @@ GameObject:
   m_Component:
   - component: {fileID: 695887581}
   - component: {fileID: 695887580}
-  - component: {fileID: 695887579}
   m_Layer: 0
   m_Name: Ground (3)
   m_TagString: Untagged
@@ -776,32 +667,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &695887579
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 695887578}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.142354, y: 2.28}
-    newSize: {x: 7.142354, y: 2.28}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.142354, y: 2.28}
-  m_EdgeRadius: 0
 --- !u!212 &695887580
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -877,7 +742,6 @@ GameObject:
   m_Component:
   - component: {fileID: 867545368}
   - component: {fileID: 867545367}
-  - component: {fileID: 867545366}
   m_Layer: 0
   m_Name: BG Day (2)
   m_TagString: Untagged
@@ -885,32 +749,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &867545366
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867545365}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.2, y: 12.8}
-    newSize: {x: 7.2, y: 12.8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.2, y: 12.8}
-  m_EdgeRadius: 0
 --- !u!212 &867545367
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -985,7 +823,6 @@ GameObject:
   m_Component:
   - component: {fileID: 970838193}
   - component: {fileID: 970838192}
-  - component: {fileID: 970838191}
   m_Layer: 0
   m_Name: BG Day (5)
   m_TagString: Untagged
@@ -993,32 +830,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &970838191
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970838190}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.2, y: 12.8}
-    newSize: {x: 7.2, y: 12.8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.2, y: 12.8}
-  m_EdgeRadius: 0
 --- !u!212 &970838192
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1159,7 +970,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1163980391}
   - component: {fileID: 1163980390}
-  - component: {fileID: 1163980389}
   m_Layer: 0
   m_Name: Ground (6)
   m_TagString: Untagged
@@ -1167,32 +977,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1163980389
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1163980388}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.142354, y: 2.28}
-    newSize: {x: 7.142354, y: 2.28}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.142354, y: 2.28}
-  m_EdgeRadius: 0
 --- !u!212 &1163980390
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1268,7 +1052,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1349253812}
   - component: {fileID: 1349253811}
-  - component: {fileID: 1349253810}
   m_Layer: 0
   m_Name: BG Day (4)
   m_TagString: Untagged
@@ -1276,32 +1059,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1349253810
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1349253809}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.2, y: 12.8}
-    newSize: {x: 7.2, y: 12.8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.2, y: 12.8}
-  m_EdgeRadius: 0
 --- !u!212 &1349253811
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1485,7 +1242,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1478363578}
   - component: {fileID: 1478363577}
-  - component: {fileID: 1478363576}
   m_Layer: 0
   m_Name: Ground (4)
   m_TagString: Untagged
@@ -1493,32 +1249,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1478363576
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478363575}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.142354, y: 2.28}
-    newSize: {x: 7.142354, y: 2.28}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.142354, y: 2.28}
-  m_EdgeRadius: 0
 --- !u!212 &1478363577
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1594,7 +1324,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1627188025}
   - component: {fileID: 1627188024}
-  - component: {fileID: 1627188023}
   m_Layer: 0
   m_Name: BG Day (3)
   m_TagString: Untagged
@@ -1602,32 +1331,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1627188023
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1627188022}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.2, y: 12.8}
-    newSize: {x: 7.2, y: 12.8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.2, y: 12.8}
-  m_EdgeRadius: 0
 --- !u!212 &1627188024
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1823,7 +1526,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1666607694}
   - component: {fileID: 1666607693}
-  - component: {fileID: 1666607692}
   m_Layer: 0
   m_Name: Ground (7)
   m_TagString: Untagged
@@ -1831,32 +1533,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1666607692
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666607691}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.142354, y: 2.28}
-    newSize: {x: 7.142354, y: 2.28}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.142354, y: 2.28}
-  m_EdgeRadius: 0
 --- !u!212 &1666607693
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1932,7 +1608,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1703971584}
   - component: {fileID: 1703971583}
-  - component: {fileID: 1703971582}
   m_Layer: 0
   m_Name: Ground (2)
   m_TagString: Untagged
@@ -1940,32 +1615,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1703971582
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1703971581}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.142354, y: 2.28}
-    newSize: {x: 7.142354, y: 2.28}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.142354, y: 2.28}
-  m_EdgeRadius: 0
 --- !u!212 &1703971583
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2140,7 +1789,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1841440616}
   - component: {fileID: 1841440615}
-  - component: {fileID: 1841440614}
   m_Layer: 0
   m_Name: BG Day (6)
   m_TagString: Untagged
@@ -2148,32 +1796,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1841440614
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841440613}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.2, y: 12.8}
-    newSize: {x: 7.2, y: 12.8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.2, y: 12.8}
-  m_EdgeRadius: 0
 --- !u!212 &1841440615
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2258,7 +1880,7 @@ PrefabInstance:
     - target: {fileID: 3471717914635715359, guid: dbfd5aebd3902f1498de82d3e9bab9de,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 2.01
       objectReference: {fileID: 0}
     - target: {fileID: 3471717914635715359, guid: dbfd5aebd3902f1498de82d3e9bab9de,
         type: 3}
@@ -2308,6 +1930,10 @@ PrefabInstance:
     - target: {fileID: 3471717914635715358, guid: dbfd5aebd3902f1498de82d3e9bab9de,
         type: 3}
       propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2087572313, guid: dbfd5aebd3902f1498de82d3e9bab9de, type: 3}
+      propertyPath: isAlive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
