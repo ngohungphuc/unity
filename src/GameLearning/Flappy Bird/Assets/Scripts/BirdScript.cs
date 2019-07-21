@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class BirdScript : MonoBehaviour
@@ -9,12 +7,11 @@ public class BirdScript : MonoBehaviour
     public bool isAlive;
 
     [SerializeField]
-    private Rigidbody2D rigidbody;
+    private Rigidbody2D myRigidBody;
     [SerializeField]
     private Animator anim;
     private Button flapButton;
-
-    private float fowardSpeed = 3f;
+    private float forwardSpeed = 3f;
     private float bounceSpeed = 4f;
     private bool didFlap;
 
@@ -46,25 +43,25 @@ public class BirdScript : MonoBehaviour
         {
             //current position of the bird
             Vector3 temp = transform.position;
-            temp.x += fowardSpeed * Time.deltaTime;
+            temp.x += forwardSpeed * Time.deltaTime;
             transform.position = temp;
 
             if (didFlap)
             {
                 didFlap = false;
-                rigidbody.velocity = new Vector2(0, bounceSpeed);
+                myRigidBody.velocity = new Vector2(0, bounceSpeed);
                 //trigger flap animation
                 anim.SetTrigger("Flap");
             }
 
-            if (rigidbody.velocity.y >= 0)
+            if (myRigidBody.velocity.y >= 0)
             {
                 transform.rotation = Quaternion.Euler(0, 0, 0);
             }
             else
             {
                 float angle = 0;
-                angle = Mathf.Lerp(0, -90, -rigidbody.velocity.y / 7);
+                angle = Mathf.Lerp(0, -90, -myRigidBody.velocity.y / 7);
                 transform.rotation = Quaternion.Euler(0, 0, angle);
             }
         }
@@ -72,7 +69,7 @@ public class BirdScript : MonoBehaviour
 
     void SetCameraX()
     {
-        CameraScript.offsetX = (Camera.main.transform.position.x - transform.position.x) - 1f;
+        CaneraScript.offsetX = (Camera.main.transform.position.x - transform.position.x) - 1f;
     }
 
     public float GetPositionX()

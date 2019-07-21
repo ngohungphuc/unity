@@ -154,5 +154,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0858a390374c949b85cb5c50391da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbody: {fileID: 3471717914635715358}
+  isAlive: 0
+  myRigidBody: {fileID: 3471717914635715358}
   anim: {fileID: 3471717914635715345}

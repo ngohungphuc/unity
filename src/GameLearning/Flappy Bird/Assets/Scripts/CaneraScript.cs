@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraScript : MonoBehaviour
+public class CaneraScript : MonoBehaviour
 {
     public static float offsetX;
-    // Start is called before the first frame update
+
+    // Use this for initialization
     void Start()
     {
 
