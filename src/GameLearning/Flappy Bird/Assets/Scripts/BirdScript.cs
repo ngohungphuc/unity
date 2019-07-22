@@ -5,11 +5,16 @@ public class BirdScript : MonoBehaviour
 {
     public static BirdScript instance;
     public bool isAlive;
+    public int score;
 
     [SerializeField]
     private Rigidbody2D myRigidBody;
     [SerializeField]
     private Animator anim;
+    [SerializeField]
+    private AudioSource audioSource;
+    [SerializeField]
+    private AudioClip flapClick, pointClip, diedClip;
     private Button flapButton;
     private float forwardSpeed = 3f;
     private float bounceSpeed = 4f;
@@ -23,7 +28,7 @@ public class BirdScript : MonoBehaviour
         }
 
         isAlive = true;
-
+        score = 0;
         //add fuction for button
         flapButton = GameObject.FindGameObjectWithTag("FlapButton").GetComponent<Button>();
         flapButton.onClick.AddListener(() => FlapTheBird());
@@ -50,6 +55,7 @@ public class BirdScript : MonoBehaviour
             {
                 didFlap = false;
                 myRigidBody.velocity = new Vector2(0, bounceSpeed);
+                audioSource.PlayOneShot(flapClick);
                 //trigger flap animation
                 anim.SetTrigger("Flap");
             }
@@ -80,5 +86,35 @@ public class BirdScript : MonoBehaviour
     public void FlapTheBird()
     {
         didFlap = true;
+    }
+
+    /// <summary>
+    /// if bird collision with ground or pipe -> died
+    /// </summary>
+    /// <param name="target"></param>
+    void OnCollisionEnter2D(Collision2D target)
+    {
+        if (target.gameObject.tag == "Ground" || target.gameObject.tag == "Pipe")
+        {
+            if (isAlive)
+            {
+                isAlive = false;
+                anim.SetTrigger("Bird Died");
+                audioSource.PlayOneShot(diedClip);
+            }
+        }
+    }
+
+    /// <summary>
+    /// if bird get pass 1 pipe + 1 point
+    /// </summary>
+    /// <param name="target"></param>
+    void OnTriggerEnter2D(Collider2D target)
+    {
+        if (target.gameObject.tag == "PipeHolder")
+        {
+            score++;
+            audioSource.PlayOneShot(pointClip);
+        }
     }
 }
