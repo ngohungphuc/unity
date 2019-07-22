@@ -156,9 +156,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isAlive: 0
+  score: 0
   myRigidBody: {fileID: 3471717914635715358}
   anim: {fileID: 3471717914635715345}
-  audio: {fileID: 3413338264904702341}
+  audioSource: {fileID: 3413338264904702341}
   flapClick: {fileID: 8300000, guid: edc60603e2f3d6940bd7cb5198654d20, type: 3}
   pointClip: {fileID: 8300000, guid: 011e885e9cdfd6645a5e7c0cb9e57bc8, type: 3}
   diedClip: {fileID: 8300000, guid: 553fb8ddc6ddcd34fa3252d99c5e1a7f, type: 3}
