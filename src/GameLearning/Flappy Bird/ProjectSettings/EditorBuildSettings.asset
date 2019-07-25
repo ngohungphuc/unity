@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MainMenu.unity
+    guid: 4405349ff09f9434e872a3984ddbb28d
+  - enabled: 1
+    path: Assets/Scenes/FlappyBird.unity
+    guid: ca32b573f378aa94ba509e358b08813e
   m_configObjects: {}
