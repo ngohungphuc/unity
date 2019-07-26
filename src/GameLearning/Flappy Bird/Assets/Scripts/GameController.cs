@@ -7,8 +7,6 @@ public class GameController : MonoBehaviour
     public static GameController instance;
 
     private const string HIGH_SCORE = "High Score";
-    private const string SELECTED_BIRD = "Selected Bird";
-    private const string GREEN_BIRD = "Green Bird";
 
     void Awake()
     {
@@ -33,7 +31,8 @@ public class GameController : MonoBehaviour
         if(instance != null)
         {
             Destroy(gameObject);
-        }else
+        }
+        else
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
@@ -45,8 +44,6 @@ public class GameController : MonoBehaviour
         if(!PlayerPrefs.HasKey("IsGameStartFirstTime"))
         {
             PlayerPrefs.SetInt(HIGH_SCORE, 0);
-            PlayerPrefs.SetInt(SELECTED_BIRD, 0);
-            PlayerPrefs.SetInt(GREEN_BIRD, 0);
             PlayerPrefs.SetInt("IsGameStartFirstTime", 0);
         }
     }
@@ -59,25 +56,5 @@ public class GameController : MonoBehaviour
     public int GetHighScore()
     {
         return PlayerPrefs.GetInt(HIGH_SCORE);
-    }
-
-    public void SetSelectedBird(int selectedBird)
-    {
-        PlayerPrefs.SetInt(SELECTED_BIRD, selectedBird);
-    }
-
-    public int GetSelectedBird()
-    {
-        return PlayerPrefs.GetInt(SELECTED_BIRD);
-    }
-
-    public void UnlockGreenBird()
-    {
-        PlayerPrefs.SetInt(GREEN_BIRD, 1);
-    }
-
-    public int IsGreenBirdUnlocked()
-    {
-        return PlayerPrefs.GetInt(GREEN_BIRD);
     }
 }

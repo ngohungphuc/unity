@@ -52,7 +52,7 @@ public class ScenceFader : MonoBehaviour
     {
         fadeCanvas.SetActive(true);
         fadeAnim.Play("FadeIn");
-        yield return new WaitForSeconds(.7f);
+        yield return StartCoroutine(CustomCoroutine.WaitForRealSeconds(.7f));
         Application.LoadLevel(levelName);
         FadeOut();
     }
@@ -60,7 +60,7 @@ public class ScenceFader : MonoBehaviour
     IEnumerator FadeOutAnimation()
     {
         fadeAnim.Play("FadeOut");
-        yield return new WaitForSeconds(1f);
+        yield return StartCoroutine(CustomCoroutine.WaitForRealSeconds(1));
         fadeCanvas.SetActive(false);
     }
 }

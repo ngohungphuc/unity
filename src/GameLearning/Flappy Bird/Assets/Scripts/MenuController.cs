@@ -7,12 +7,8 @@ public class MenuController : MonoBehaviour
 {
     public static MenuController instance;
 
-    [SerializeField]
-    private GameObject[] birds;
-
     void Awake()
     {
-        //birds[GameController.instance.GetSelectedBird()].SetActive(true);
         MakeInstance();
     }
 
@@ -22,18 +18,6 @@ public class MenuController : MonoBehaviour
         {
             instance = this;
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void PlayGame()
